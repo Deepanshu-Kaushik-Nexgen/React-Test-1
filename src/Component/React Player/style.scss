@@ -19,12 +19,15 @@
       padding: 1em 0;
 
       .tile{
-
          & img {
             height: 7em;
             width: auto;
             cursor: pointer;
+            border-radius: 5px;
+         }
+         img:hover {
+            transform: scale(120%);
          }
       }
-   }
+   } 
 }
